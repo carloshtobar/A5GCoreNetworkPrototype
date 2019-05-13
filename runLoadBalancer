@@ -1,0 +1,4 @@
+#!/bin/bash
+trap "exit" 2
+
+systemctl start nginx
